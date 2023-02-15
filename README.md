@@ -37,9 +37,13 @@ Desain yang saya buat menggunakan 4 Class:
 
 _Semua Class diatas dilengkapi dengan setter dan getternya_
 
-Pada Class class 
+Pada Class class diats dilakukan multi-level inheritance dari 
 
-`Kenapa?` 
+`Class Human` -> `Class SivitasAkademik` -> `Class Mahasiswa`
+
+`Kenapa?` karena `Mahasiswa` adalah `SivitasAkademik` dan `SivitasAkademik` adalah `Human`
+
+maka masuk akal kalau inheritance memakai multi-level inheritance
 
 `Class Crud` memiliki total dua atribut:
 * **list** -> array untuk menyimpan class Mahasiswa, `array of Mahasiswa`
@@ -75,7 +79,7 @@ Pengguna dapat memilih untuk mengetikkan serangkaian perintah berikut pada comma
 Seteleh memilih maka akan dimintai mengetikkan perintah berikutnya sampai mengetik perintah `exit`
 
 ## Dokumentasi
-**Program PHP**
+**Program Java**
 
 ![Java program](img/java-program.png)
 
