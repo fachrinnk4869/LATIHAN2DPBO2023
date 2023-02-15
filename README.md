@@ -37,13 +37,15 @@ Desain yang saya buat menggunakan 4 Class:
 
 _Semua Class diatas dilengkapi dengan setter dan getternya_
 
-Pada Class class diats dilakukan multi-level inheritance dari 
+
+Pada Class class diatas dilakukan multi-level inheritance dari 
 
 `Class Human` -> `Class SivitasAkademik` -> `Class Mahasiswa`
 
 `Kenapa?` karena `Mahasiswa` adalah `SivitasAkademik` dan `SivitasAkademik` adalah `Human`
 
 maka pewarisan dilakukan dari `Class Human` ke `Class SivitasAkademik` ke `Class Mahasiswa`
+
 
 `Class Crud` memiliki total dua atribut:
 * **list** -> array untuk menyimpan class Mahasiswa, `array of Mahasiswa`
