@@ -21,16 +21,16 @@ Desain yang saya buat menggunakan 4 Class:
 * Mahasiswa
 * Crud
 
-`Class Human` memiliki total lima atribut:
+`Class Human` memiliki total tiga atribut:
 * **NIK** -> NIK manusia, `string`
 * **Nama** -> nama manusia, `string`
 * **Nama** -> jenis kelamin manusia, `string`
 
-`Class SivitasAkademik` memiliki total lima atribut dan atribut dari parentnya `Class Human`:
+`Class SivitasAkademik` memiliki total dua atribut dan atribut dari parentnya `Class Human`:
 * **asalUniv** -> asal Universitas sivitas akademik, `string`
 * **emailEdu** -> email Edu sivitas akademik, `string`
 
-`Class Mahasiswa` memiliki total lima atribut dan atribut dari parentnya `Class SivitasAkademik`:
+`Class Mahasiswa` memiliki total tiga atribut dan atribut dari parentnya `Class SivitasAkademik`:
 * **NIM** -> NIM mahasiswa, `string`
 * **Prodi** -> program studi mahasiswa, `string`
 * **Fakultas** -> Fakultas mahasiswa, `string`
@@ -52,8 +52,8 @@ maka masuk akal kalau inheritance memakai multi-level inheritance
 dan `Class Crud` memiliki total empat method:
 * **tambah** -> menambah data Mahasiswa ke `list` dan NIM nya ke `listNim`
 * **tampil** -> menampilkan data Mahasiswa dari `list`
-* **hapus** -> menghapus data Mahasiswa ke `list` dan NIM nya ke `listNim`
-* **ganti** -> mengganti data Mahasiswa ke `list` dan NIM nya ke `listNim`
+<!-- * **hapus** -> menghapus data Mahasiswa ke `list` dan NIM nya ke `listNim`
+* **ganti** -> mengganti data Mahasiswa ke `list` dan NIM nya ke `listNim` -->
 
 Pada `Class Crud` terdapat dua list yaitu `list` dan `listNim`
 
@@ -66,7 +66,7 @@ Pengguna akan diminta untuk mengetikkan perintah pada command prompt
 
 Pengguna dapat memilih untuk mengetikkan serangkaian perintah berikut pada command prompt
 
-- ketik `tambah [NIM] [Nama] [Prodi] [Fakultas]` untuk menambah data pada list
+- ketik `tambah [NIK] [NIM] [Nama] [Jenis Kelamin] [Asal Universitas] [Email Edu] [Prodi] [Fakultas]` untuk menambah data pada list
 
 <!-- - ketik `ganti [NIM] [Nama] [Prodi] [Fakultas]` untuk mengganti data pada list -->
 

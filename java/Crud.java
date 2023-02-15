@@ -3,16 +3,18 @@ import java.util.ArrayList;
 // package java;
 
 public class Crud {
-  private ArrayList<Mahasiswa> list;
-  private ArrayList<String> listNim;
+  private ArrayList<Mahasiswa> list;// atribut list
+  private ArrayList<String> listNim;// atribut list NIM
 
   Crud(){
-    list = new ArrayList<Mahasiswa>();
-    listNim = new ArrayList<String>();
+    list = new ArrayList<Mahasiswa>();// memanggil objek list
+    listNim = new ArrayList<String>();// memanggil objek listNim
   }
 
   public void tambah(Mahasiswa mhs){
+    // method menambah class Mahasiswa ke list
     if(listNim.indexOf(mhs.getNim()) != -1){
+      // error handl jiak memiliki NIM yang sama
       System.out.println("data yang ingin anda tambah tidak unique value");
       return;
     }
@@ -20,30 +22,8 @@ public class Crud {
     this.listNim.add(mhs.getNim());
   }
 
-  // public void hapus(Mahasiswa mhs){
-  //   int tunjuk = listNim.indexOf(mhs.getNim());
-  //   if(tunjuk == -1){
-  //     System.out.println("data yang ingin anda hapus tidak ada");
-  //     return;
-  //   }
-  //   listNim.remove(tunjuk);
-  //   list.remove(tunjuk);
-  // }
-
-  // public void ganti(Mahasiswa mhs){
-  //   int tunjuk = listNim.indexOf(mhs.getNim());
-  //   if(tunjuk == -1){
-  //     System.out.println("data yang ingin anda ganti tidak ada");
-  //     return;
-  //   }
-  //   listNim.set(tunjuk, mhs.getNim());
-  //   list.get(tunjuk).setNim(mhs.getNim());
-  //   list.get(tunjuk).setNama(mhs.getNama());
-  //   list.get(tunjuk).setProdi(mhs.getProdi());
-  //   list.get(tunjuk).setFakultas(mhs.getFakultas());
-  // }
-
   public void tampil(){
+    // menampilkan list dari Mahasiswa
     for(int i = 0;i < list.size();i++){
       System.out.println(
       (i + 1) 
