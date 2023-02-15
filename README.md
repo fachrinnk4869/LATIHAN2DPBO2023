@@ -43,7 +43,7 @@ Pada Class class diats dilakukan multi-level inheritance dari
 
 `Kenapa?` karena `Mahasiswa` adalah `SivitasAkademik` dan `SivitasAkademik` adalah `Human`
 
-maka masuk akal kalau inheritance memakai multi-level inheritance
+maka pewarisan dilakukan dari `Class Human` ke `Class SivitasAkademik` ke `Class Mahasiswa`
 
 `Class Crud` memiliki total dua atribut:
 * **list** -> array untuk menyimpan class Mahasiswa, `array of Mahasiswa`
@@ -81,9 +81,11 @@ Seteleh memilih maka akan dimintai mengetikkan perintah berikutnya sampai menget
 ## Dokumentasi
 **Program Java**
 
-![Java program](img/java-program.png)
+![Java program](java/java-program.png)
 
 ### Test Case
 tambah 12345 2106515 fachri L UPI fachri.edu ilkom FPMIPA
+
 tambah 1234 23451 Najm L PIU najm.edu biologi FPTK
+
 tampil
