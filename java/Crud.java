@@ -14,7 +14,7 @@ public class Crud {
   public void tambah(Mahasiswa mhs){
     // method menambah class Mahasiswa ke list
     if(listNim.indexOf(mhs.getNim()) != -1){
-      // error handl jiak memiliki NIM yang sama
+      // error handle jika memiliki NIM yang sama
       System.out.println("data yang ingin anda tambah tidak unique value");
       return;
     }

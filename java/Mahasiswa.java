@@ -9,7 +9,7 @@ public class Mahasiswa extends SivitasAkademik {
     this.prodi = "";
     this.fakultas = "";
   }
-  Mahasiswa(String nama, String nim, String prodi, String fakultas){
+  Mahasiswa(String nim, String prodi, String fakultas){
     // inisiasi dengan value awal
     this.nim = nim;
     this.prodi = prodi;
