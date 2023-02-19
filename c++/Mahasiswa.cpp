@@ -11,7 +11,7 @@ class Mahasiswa :  public SivitasAkademik {
       this->prodi = "";
       this->fakultas = "";
     }
-    Mahasiswa(string nim, string prodi, string fakultas){
+    Mahasiswa(string nim, string prodi, string fakultas, string emailEdu, string asalUniv, string nik, string nama, string jenisKelamin) : SivitasAkademik(emailEdu, asalUniv, nik, nama, jenisKelamin){
       // inisiasi dengan value awal
       this->nim = nim;
       this->prodi = prodi;

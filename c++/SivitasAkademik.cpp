@@ -9,7 +9,7 @@ class SivitasAkademik :  public Human {
       this->emailEdu = "";
       this->asalUniv = "";
     }
-    SivitasAkademik(string emailEdu, string asalUniv){
+    SivitasAkademik(string emailEdu, string asalUniv, string nik, string nama, string jenisKelamin) : Human(nik, nama, jenisKelamin){
       // inisias dengan value awal
       this->asalUniv = asalUniv;
       this->emailEdu = emailEdu;
