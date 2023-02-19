@@ -87,7 +87,7 @@ Seteleh memilih maka akan dimintai mengetikkan perintah berikutnya sampai menget
 
 **Program PHP**
 
-![PHP program](java/php-program.png)
+![PHP program](php/php-program.png)
 
 ### Test Case
 tambah 12345 2106515 fachri L UPI fachri.edu ilkom FPMIPA
