@@ -89,6 +89,10 @@ Seteleh memilih maka akan dimintai mengetikkan perintah berikutnya sampai menget
 
 ![PHP program](php/php-program.png)
 
+**UML Program**
+
+![PHP program](uml-lat2.png)
+
 ### Test Case
 tambah 12345 2106515 fachri L UPI fachri.edu ilkom FPMIPA
 
